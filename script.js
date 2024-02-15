@@ -11,13 +11,7 @@ function loadPlaces(position) {
     const corsProxy = 'https://cors-anywhere.herokuapp.com/';
 
     // Foursquare API (limit param: number of maximum places to fetch)
-    const endpoint = `https://api.foursquare.com/v2/venues/search?intent=checkin
-        &ll=${position.latitude},${position.longitude}
-        &radius=${params.radius}
-        &client_id=${params.clientId}
-        &client_secret=${params.clientSecret}
-        &limit=30
-        &v=${params.version}`;
+    const endpoint = `https://api.foursquare.com/v2/venues/search?intent=checkin&ll=${position.latitude},${position.longitude}&radius=${params.radius}&client_id=${params.clientId}&client_secret=${params.clientSecret}&limit=30&v=${params.version}`;
     return fetch(endpoint)
         .then((res) => {
             return res.json()
