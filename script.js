@@ -41,13 +41,24 @@ window.onload = () => {
 
                     // add place name
                     const placeText = document.createElement('a-link');
-                    // placeText.setAttribute('gps-entity-place', `latitude: ${latitude}; longitude: ${longitude};`);
+                    placeText.setAttribute('gps-entity-place', `latitude: ${latitude}; longitude: ${longitude};`);
                     placeText.setAttribute('title', place.name);
-                    placeText.setAttribute('scale', '2 2 2');
 
+                    const fixedScale = 5;
+                    placeText.setAttribute('scale', `${fixedScale} ${fixedScale} ${fixedScale}`);
+
+                    // Adjust scale based on camera distance
                     placeText.addEventListener('loaded', () => {
+                        const camera = document.querySelector('[gps-camera]');
+                        const distance = camera.object3D.position.distanceTo(placeText.object3D.position);
+                        const scale = fixedScale / distance;
+                        placeText.setAttribute('scale', `${scale} ${scale} ${scale}`);
                         window.dispatchEvent(new CustomEvent('gps-entity-place-loaded'))
                     });
+
+                    // placeText.addEventListener('loaded', () => {
+                    //     window.dispatchEvent(new CustomEvent('gps-entity-place-loaded'))
+                    // });
 
                     scene.appendChild(placeText);
                 });
