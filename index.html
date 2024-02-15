@@ -17,7 +17,30 @@
         vr-mode-ui='enabled: false'
         embedded
         arjs='sourceType: webcam; sourceWidth:1280; sourceHeight:960; displayWidth: 1280; displayHeight: 960; debugUIEnabled: false;'>
-        <a-camera gps-camera="latitude: 13.06088; longitude: 77.58756;" rotation="0 -90 0"></a-camera>
+        <a-camera gps-camera="latitude: 13.06088; longitude: 77.58756;" rotation-reader></a-camera>
     </a-scene>
+    <div id="rotation-display"></div>
+
+    <script>
+        // Wait for the scene to load
+        document.querySelector('a-scene').addEventListener('loaded', () => {
+            // Get reference to the camera entity
+            const camera = document.querySelector('a-camera');
+
+            // Get reference to the rotation display element
+            const rotationDisplay = document.getElementById('rotation-display');
+
+            // Listen for changes in rotation
+            camera.addEventListener('componentchanged', (evt) => {
+                // Check if the rotation component has changed
+                if (evt.detail.name === 'rotation') {
+                    // Get the new rotation values
+                    const rotation = camera.getAttribute('rotation');
+                    // Update the rotation display element with the new values
+                    rotationDisplay.innerHTML = `Rotation: X=${rotation.x.toFixed(2)}, Y=${rotation.y.toFixed(2)}, Z=${rotation.z.toFixed(2)}`;
+                }
+            });
+        });
+    </script>
 </body>
 </html>
