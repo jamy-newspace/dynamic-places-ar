@@ -12,10 +12,11 @@ function loadPlaces(position) {
 
     // Foursquare API (limit param: number of maximum places to fetch)
     const endpoint = `https://api.foursquare.com/v2/venues/search?intent=checkin&ll=${position.latitude},${position.longitude}&radius=${params.radius}&client_id=${params.clientId}&client_secret=${params.clientSecret}&limit=30&v=${params.version}`;
-    return fetch(endpoint)
+    return fetch('https://dynamic-places-ar-k138.vercel.app/data.json')
         .then((res) => {
             return res.json()
                 .then((resp) => {
+                    console.log(resp.response.venues)
                     return resp.response.venues;
                 })
         })
