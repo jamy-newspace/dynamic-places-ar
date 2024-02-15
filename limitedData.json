@@ -1,0 +1,229 @@
+{
+    "meta": {
+      "code": 200,
+      "requestId": "65ccb6ee5b4e6b6812416d4a"
+    },
+    "notifications": [
+      {
+        "type": "notificationTray",
+        "item": {
+          "unreadCount": 0
+        }
+      }
+    ],
+    "response": {
+      "venues": [
+        {
+          "id": "64c4b907ec67e91c4ebff993",
+          "name": "Third Wave Coffee",
+          "contact": {
+            "instagram": "thirdwavecoffeeindia",
+            "facebook": "277498175918691",
+            "facebookName": "Third Wave Coffee"
+          },
+          "location": {
+            "address": "Shop No 864, Ground Floor, D Block, 60 Feet Road,",
+            "crossStreet": "CQAL Layout, Sahakar Nagar,",
+            "lat": 13.06098,
+            "lng": 77.587205,
+            "labeledLatLngs": [
+              {
+                "label": "display",
+                "lat": 13.06105,
+                "lng": 77.587205
+              }
+            ],
+            "distance": 47,
+            "postalCode": "560092",
+            "cc": "IN",
+            "city": "Bangalore",
+            "state": "Karnātaka",
+            "country": "India",
+            "contextLine": "Bangalore, Karnātaka",
+            "contextGeoId": -2118822902,
+            "formattedAddress": [
+              "<span itemprop=\"streetAddress\">Shop No 864, Ground Floor, D Block, 60 Feet Road,</span> (CQAL Layout, Sahakar Nagar,)",
+              "<span itemprop=\"addressLocality\">Bangalore</span> <span itemprop=\"postalCode\">560092</span>",
+              "<span itemprop=\"addressRegion\">Karn&#257;taka</span>"
+            ]
+          },
+          "canonicalUrl": "https://foursquare.com/v/third-wave-coffee/64c4b907ec67e91c4ebff993",
+          "canonicalPath": "/v/third-wave-coffee/64c4b907ec67e91c4ebff993",
+          "categories": [
+            {
+              "id": "4bf58dd8d48988d1e0931735",
+              "name": "Coffee Shop",
+              "pluralName": "Coffee Shops",
+              "shortName": "Coffee Shop",
+              "icon": {
+                "prefix": "https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_",
+                "mapPrefix": "https://ss3.4sqi.net/img/categories_map/food/coffeeshop",
+                "suffix": ".png"
+              },
+              "mapIcon": "fsq-coffee",
+              "primary": true
+            }
+          ],
+          "verified": false,
+          "stats": {
+            "tipCount": 0,
+            "usersCount": 2,
+            "checkinsCount": 2
+          },
+          "url": "https://www.thirdwavecoffeeroasters.com",
+          "urlSig": "3X9SBJBsLga3mMmB0mUViaxGGK0=",
+          "header": "This place doesn't have a rating yet. Once more members of the Foursquare community visit, we can calculate a rating.",
+          "explanation": "We take into account visits and input from our community. You'll see a number on places based off of ratings and tips written by people like you.",
+          "allowMenuUrlEdit": true,
+          "beenHere": {
+            "lastCheckinExpiredAt": 0
+          },
+          "createdAt": 1690614023,
+          "hereNow": {
+            "count": 0,
+            "summary": "Nobody here",
+            "groups": []
+          },
+          "referralId": "v-1707914990",
+          "venueChains": [
+            {
+              "id": "63647c07e92efc64fa1f27ad"
+            }
+          ],
+          "hasPerk": false
+        },
+        {
+          "id": "54a819fd498e9be4660b2057",
+          "name": "GMR",
+          "contact": {},
+          "location": {
+            "lat": 13.06079,
+            "lng": 77.58736,
+            "labeledLatLngs": [
+              {
+                "label": "display",
+                "lat": 13.060612079702642,
+                "lng": 77.58741560146153
+              }
+            ],
+            "distance": 10,
+            "cc": "IN",
+            "country": "India",
+            "contextLine": "",
+            "contextGeoId": 9151314444005771000,
+            "formattedAddress": [
+              ""
+            ]
+          },
+          "canonicalUrl": "https://foursquare.com/v/ammis-biriyani/54a819fd498e9be4660b2057",
+          "canonicalPath": "/v/ammis-biriyani/54a819fd498e9be4660b2057",
+          "categories": [
+            {
+              "id": "4bf58dd8d48988d10f941735",
+              "name": "Indian Restaurant",
+              "pluralName": "Indian Restaurants",
+              "shortName": "Indian",
+              "icon": {
+                "prefix": "https://ss3.4sqi.net/img/categories_v2/food/indian_",
+                "mapPrefix": "https://ss3.4sqi.net/img/categories_map/food/indian",
+                "suffix": ".png"
+              },
+              "mapIcon": "fsq-dining",
+              "primary": true
+            }
+          ],
+          "verified": false,
+          "stats": {
+            "tipCount": 0,
+            "usersCount": 1,
+            "checkinsCount": 1
+          },
+          "header": "This place doesn't have a rating yet. Once more members of the Foursquare community visit, we can calculate a rating.",
+          "explanation": "We take into account visits and input from our community. You'll see a number on places based off of ratings and tips written by people like you.",
+          "allowMenuUrlEdit": true,
+          "beenHere": {
+            "lastCheckinExpiredAt": 0
+          },
+          "createdAt": 1420302845,
+          "hereNow": {
+            "count": 0,
+            "summary": "Nobody here",
+            "groups": []
+          },
+          "referralId": "v-1707914990",
+          "venueChains": [],
+          "hasPerk": false
+        },
+        {
+          "id": "4fe55317e4b0b3b9731b1dad",
+          "name": "Appolo",
+          "contact": {},
+          "location": {
+            "address": "#415/3, F Block",
+            "crossStreet": "Sahakara Nagar",
+            "lat": 13.06061,
+            "lng": 77.58744,
+            "labeledLatLngs": [
+              {
+                "label": "display",
+                "lat": 13.05869578658034,
+                "lng": 77.58650342739274
+              }
+            ],
+            "distance": 246,
+            "postalCode": "560092",
+            "cc": "IN",
+            "city": "Bangalore",
+            "state": "Karnātaka",
+            "country": "India",
+            "contextLine": "Bangalore, Karnātaka",
+            "contextGeoId": 9151314443810034000,
+            "formattedAddress": [
+              "<span itemprop=\"streetAddress\">#415/3, F Block</span> (Sahakara Nagar)",
+              "<span itemprop=\"addressLocality\">Bangalore</span> <span itemprop=\"postalCode\">560092</span>",
+              "<span itemprop=\"addressRegion\">Karn&#257;taka</span>"
+            ]
+          },
+          "canonicalUrl": "https://foursquare.com/v/sahakara-nagar-cooperative-society/4fe55317e4b0b3b9731b1dad",
+          "canonicalPath": "/v/sahakara-nagar-cooperative-society/4fe55317e4b0b3b9731b1dad",
+          "categories": [
+            {
+              "id": "4bf58dd8d48988d10a951735",
+              "name": "Bank",
+              "pluralName": "Banks",
+              "shortName": "Bank",
+              "icon": {
+                "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/financial_",
+                "mapPrefix": "https://ss3.4sqi.net/img/categories_map/shops/financial",
+                "suffix": ".png"
+              },
+              "mapIcon": "fsq-business",
+              "primary": true
+            }
+          ],
+          "verified": false,
+          "stats": {
+            "tipCount": 0,
+            "usersCount": 5,
+            "checkinsCount": 26
+          },
+          "header": "This place doesn't have a rating yet. Once more members of the Foursquare community visit, we can calculate a rating.",
+          "explanation": "We take into account visits and input from our community. You'll see a number on places based off of ratings and tips written by people like you.",
+          "allowMenuUrlEdit": true,
+          "beenHere": {
+            "lastCheckinExpiredAt": 0
+          },
+          "createdAt": 1340429079,
+          "hereNow": {
+            "count": 0,
+            "summary": "Nobody here",
+            "groups": []
+          },
+          "referralId": "v-1707914990",
+          "venueChains": [],
+          "hasPerk": false
+        }
+      ],
+      "confident": false
+    }
+}
